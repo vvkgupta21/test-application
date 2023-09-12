@@ -1,10 +1,11 @@
-package com.example.testapplication
+package com.example.testapplication.activity
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.example.testapplication.PostViewModelFactory
+import com.example.testapplication.R
 import com.example.testapplication.adapter.PostDataAdapter
 import com.example.testapplication.databinding.ActivityMainBinding
 import com.example.testapplication.network.TestApi
